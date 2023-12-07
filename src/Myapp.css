@@ -4,7 +4,16 @@ h1
 }
 .logo
 {
-    margin-left: 400px;
+    float:left;
+    width:50%;
+    padding-left: 5px;
+}
+
+
+.menu
+{
+    float:right;
+    width:45%;
 }
 
 header
@@ -12,6 +21,23 @@ header
     height:100px;
     background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(253,50,35,1) 57%, rgba(252,176,69,1) 100%);
+}
+header ul li 
+{
+    display: inline-block;
+    margin-left: 10px;
+    width:150px;
+    height: 30px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+header ul li a
+{
+    text-decoration: none;
+    color:white;
 }
 section
 {
@@ -40,7 +66,15 @@ section
 }
 footer
 {
-    height:100px;
+    height:200px;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(253,50,35,1) 57%, rgba(252,176,69,1) 100%);
+}
+footer .part
+{
+    float:left;
+    width:32%;
+    height: 100%;
+    border:1px solid white;
+    margin-left: 10px;
 }
